@@ -1,0 +1,8214 @@
+{
+    "metadata": {
+        "entity": "courses",
+        "algorithm": "K-Medoids",
+        "features_config": [
+            {
+                "label": "Текст (TF-IDF)",
+                "weight": 0.65,
+                "locked": false,
+                "use_umap": true,
+                "umap_dim": 50,
+                "metric": "cosine"
+            },
+            {
+                "label": "Теги (One-Hot)",
+                "weight": 0.2,
+                "locked": false,
+                "use_umap": true,
+                "umap_dim": 10,
+                "metric": "jaccard"
+            },
+            {
+                "label": "Формати",
+                "weight": 0.1,
+                "locked": true,
+                "use_umap": false,
+                "umap_dim": 5,
+                "metric": "cosine"
+            },
+            {
+                "label": "Числові",
+                "weight": 0.05,
+                "locked": true,
+                "use_umap": false,
+                "umap_dim": 10,
+                "metric": "euclidean"
+            }
+        ]
+    },
+    "clusters": [
+        {
+            "Course_ID": 1.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 2.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 3.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 4.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 5.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 6.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 7.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 8.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 9.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 10.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 11.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 12.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 13.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 14.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 15.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 16.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 17.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 18.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 19.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 20.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 21.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 22.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 23.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 24.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 25.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 26.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 27.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 28.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 29.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 30.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 31.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 32.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 33.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 34.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 35.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 36.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 37.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 38.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 39.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 40.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 41.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 42.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 43.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 44.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 45.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 46.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 47.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 48.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 49.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 50.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 51.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 52.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 53.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 54.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 55.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 56.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 57.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 58.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 59.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 60.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 61.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 62.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 63.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 64.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 65.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 66.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 67.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 68.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 69.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 70.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 71.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 72.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 73.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 74.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 75.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 76.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 77.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 78.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 79.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 80.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 81.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 82.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 83.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 84.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 85.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 86.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 87.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 88.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 89.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 90.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 91.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 92.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 93.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 94.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 95.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 96.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 97.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 98.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 99.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 100.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 101.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 102.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 103.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 104.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 105.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 106.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 107.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 108.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 109.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 110.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 111.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 112.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 113.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 114.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 115.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 116.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 117.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 118.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 119.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 120.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 121.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 122.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 123.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 124.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 125.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 126.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 127.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 128.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 129.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 130.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 131.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 132.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 133.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 134.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 135.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 136.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 137.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 138.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 139.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 140.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 141.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 142.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 143.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 144.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 145.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 146.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 147.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 148.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 149.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 150.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 151.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 152.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 153.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 154.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 155.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 156.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 157.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 158.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 159.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 160.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 161.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 162.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 163.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 164.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 165.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 166.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 167.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 168.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 169.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 170.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 171.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 172.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 173.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 174.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 175.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 176.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 177.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 178.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 179.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 180.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 181.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 182.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 183.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 184.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 185.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 186.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 187.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 188.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 189.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 190.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 191.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 192.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 193.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 194.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 195.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 196.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 197.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 198.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 199.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 200.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 201.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 202.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 203.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 204.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 205.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 206.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 207.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 208.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 209.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 210.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 211.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 212.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 213.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 214.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 215.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 216.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 217.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 218.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 219.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 220.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 221.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 222.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 223.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 224.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 225.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 226.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 227.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 228.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 229.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 230.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 231.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 232.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 233.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 234.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 235.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 236.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 237.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 238.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 239.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 240.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 241.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 242.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 243.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 244.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 245.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 246.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 247.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 248.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 249.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 250.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 251.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 252.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 253.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 254.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 255.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 256.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 257.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 258.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 259.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 260.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 261.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 262.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 263.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 264.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 265.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 266.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 267.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 268.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 269.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 270.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 271.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 272.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 273.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 274.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 275.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 276.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 277.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 278.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 279.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 280.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 281.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 282.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 283.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 284.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 285.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 286.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 287.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 288.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 289.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 290.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 291.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 292.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 293.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 294.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 295.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 296.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 297.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 298.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 299.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 300.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 301.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 302.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 303.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 304.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 305.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 306.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 307.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 308.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 309.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 310.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 311.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 312.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 313.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 314.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 315.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 316.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 317.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 318.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 319.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 320.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 321.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 322.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 323.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 324.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 325.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 326.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 327.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 328.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 329.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 330.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 331.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 332.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 333.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 334.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 335.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 336.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 337.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 338.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 339.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 340.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 341,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 342.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 343.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 344.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 345.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 346.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 347.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 348.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 349.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 350.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 351.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 352.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 353,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 354.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 355.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 356.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 357.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 358.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 359.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 360.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 361.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 362.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 363.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 364.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 365.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 366.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 367.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 368.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 369.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 370.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 371.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 372.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 373.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 374.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 375.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 376.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 377.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 378.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 379.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 380.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 381.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 382.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 383.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 384.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 385.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 386.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 387.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 388.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 389.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 390.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 391.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 392.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 393,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 394.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 395.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 396.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 397.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 398.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 399.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 400.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 401.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 402.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 403.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 404.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 405.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 406.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 407.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 408.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 409.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 410.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 411.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 412.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 413.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 414.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 415.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 416.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 417.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 418.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 419.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 420.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 421.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 422.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 423.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 424.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 425.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 426.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 427.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 428.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 429.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 430.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 431.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 432.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 433.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 434.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 435.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 436.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 437.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 438.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 439.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 440.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 441.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 442.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 443.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 444.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 445.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 446.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 447.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 448.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 449.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 450.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 451.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 452.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 453.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 454.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 455.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 456.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 457.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 458.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 459.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 460.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 461.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 462.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 463.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 464.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 465.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 466.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 467.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 468.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 469.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 470.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 471.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 472.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 473.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 474.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 475.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 476.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 477.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 478.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 479.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 480.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 481.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 482.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 483.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 484.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 485.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 486.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 487.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 488.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 489.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 490.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 491.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 492.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 493.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 494.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 495.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 496.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 497.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 498.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 499.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 500.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 501.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 502.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 503.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 504.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 505.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 506.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 507.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 508.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 509.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 510.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 511.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 512.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 513.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 514.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 515.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 516.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 517.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 518.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 519.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 520.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 521.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 522.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 523.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 524.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 525.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 526.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 527.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 528.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 529.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 530.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 531.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 532.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 533.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 534.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 535.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 536.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 537.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 538.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 539.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 540.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 541.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 542.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 543.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 544.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 545.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 546.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 547.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 548.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 549.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 550.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 551.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 552.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 553.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 554.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 555.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 556.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 557.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 558.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 559.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 560.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 561.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 562.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 563.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 564.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 565.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 566.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 567.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 568.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 569.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 570.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 571.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 572.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 573.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 574.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 575.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 576.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 577.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 578.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 579.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 580.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 581.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 582.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 583.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 584.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 585.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 586.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 587.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 588.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 589.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 590.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 591.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 592.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 593.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 594.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 595.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 596.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 597.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 598.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 599.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 600.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 601.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 602.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 603.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 604.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 605.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 606.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 607.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 608.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 609.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 610.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 611.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 612.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 613.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 614.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 615.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 616.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 617.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 618.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 619.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 620.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 621.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 622.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 623.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 624.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 625.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 626.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 627.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 628.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 629.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 630.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 631.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 632.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 633.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 634.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 635.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 636.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 637.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 638.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 639.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 640.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 641.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 642.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 643.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 644.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 645.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 646.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 647.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 648.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 649.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 650.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 651.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 652.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 653.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 654.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 655.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 656.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 657.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 658.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 659.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 660.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 661.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 662.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 663.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 664.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 665.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 666.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 667.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 668.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 669.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 670.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 671.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 672.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 673.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 674.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 675.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 676.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 677.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 678.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 679.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 680.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 681.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 682.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 683.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 684.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 685.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 686.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 687.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 688.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 689.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 690.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 691.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 692.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 693.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 694.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 695.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 696.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 697.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 698.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 699.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 700.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 701.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 702.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 703.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 704.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 705.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 706.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 707.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 708.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 709.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 710.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 711.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 712.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 713.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 714.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 715.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 716.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 717.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 718.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 719.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 720.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 721.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 722.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 723.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 724.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 725.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 726.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 727.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 728.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 729.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 730.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 731.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 732.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 733.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 734.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 735.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 736.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 737.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 738.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 739.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 740.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 741.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 742.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 743.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 744.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 745.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 746.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 747.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 748.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 749.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 750.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 751.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 752.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 753.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 754.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 755.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 756.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 757.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 758.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 759.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 760.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 761.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 762.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 763.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 764.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 765.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 766.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 767.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 768.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 769.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 770.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 771.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 772.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 773.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 774.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 775.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 776.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 777.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 778.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 779.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 780.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 781.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 782.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 783.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 784.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 785.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 786.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 787.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 788.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 789.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 790.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 791.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 792.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 793.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 794.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 795.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 796.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 797.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 798.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 799.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 800.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 801.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 802.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 803.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 804.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 805.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 806.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 807.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 808.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 809.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 810.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 811.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 812.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 813.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 814.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 815.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 816.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 817.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 818.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 819.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 820.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 821.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 822.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 823.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 824.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 825.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 826.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 827.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 828.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 829.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 830.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 831.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 832.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 833.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 834.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 835.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 836.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 837.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 838.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 839.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 840.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 841.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 842.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 843.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 844.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 845.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 846.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 847.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 848.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 849.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 850.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 851.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 852.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 853.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 854.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 855.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 856.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 857.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 858.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 859.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 860.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 861.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 862.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 863.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 864.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 865.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 866.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 867.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 868.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 869.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 870.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 871.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 872.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 873.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 874.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 875.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 876.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 877.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 878.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 879.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 880.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 881.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 882.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 883.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 884.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 885.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 886.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 887.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 888.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 889,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 890.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 891.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 892.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 893.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 894.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 895.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 896.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 897.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 898.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 899.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 900.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 901.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 902.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 903.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 904.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 905.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 906.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 907.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 908.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 909.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 910.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 911.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 912.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 913.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 914.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 915.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 916.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 917.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 918.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 919.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 920.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 921.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 922.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 923.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 924.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 925.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 926.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 927.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 928.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 929.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 930.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 931.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 932.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 933.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 934.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 935.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 936.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 937.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 938.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 939.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 940.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 941.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 942.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 943.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 944.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 945.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 946.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 947.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 948.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 949.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 950.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 951.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 952.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 953.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 954.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 955.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 956.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 957.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 958.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 959.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 960.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 961.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 962.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 963.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 964.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 965.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 966.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 967.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 968.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 969.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 970.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 971.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 972.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 973.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 974.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 975.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 976.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 977.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 978.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 979.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 980.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 981.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 982.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 983.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 984.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 985.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 986.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 987.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 988.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 989.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 990.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 991.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 992.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 993,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 994.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 995.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 996.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 997.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 998.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 999.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1000.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1001.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1002.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1003.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1004.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1005.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1006.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1007.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1008.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1009.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1010.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1011.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1012.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1013.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1014.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1015.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1016.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1017.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1018.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1019.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1020.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1021.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1022.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1023.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1024.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1025.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1026.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1027.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1028.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1029.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1030.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1031.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1032.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1033.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1034.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1035.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1036.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1037.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1038.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1039.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1040.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1041.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1042.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1043.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1044.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1045.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1046.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1047.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1048.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1049.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1050.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1051.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1052.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1053.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1054.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1055.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1056.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1057.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1058.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1059.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1060.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1061.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1062.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1063.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1064.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1065.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1066.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1067.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1068.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1069.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1070.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1071.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1072.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1073.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1074.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1075.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1076.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1077.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1078.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1079.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1080.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1081.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1082.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1083.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1084.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1085.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1086.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1087.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1088.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1089.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1090.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1091.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1092.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1093.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1094.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1095.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1096.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1097.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1098.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1099.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1100.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1101.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1102.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1103.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1104.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1105.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1106.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1107.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1108.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1109.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1110.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1111.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1112.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1113.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1114.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1115.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1116.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1117.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1118.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1119.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1120.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1121.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1122.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1123.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1124.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1125.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1126.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1127.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1128.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1129.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1130.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1131.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1132.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1133.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1134.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1135.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1136.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1137.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1138.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1139.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1140,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1141.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1142.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1143.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1144.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1145.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1146.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1147.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1148.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1149.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1150.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1151.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1152.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1153.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1154.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1155.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1156.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1157.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1158.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1159.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1160.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1161.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1162.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1163.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1164.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1165.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1166.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1167.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1168.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1169.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1170.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1171.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1172.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1173.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1174.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1175.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1176.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1177.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1178.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1179.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1180.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1181.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1182.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1183.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1184.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1185.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1186.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1187.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1188.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1189.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1190.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1191.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1192.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1193.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1194.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1195.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1196,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1197.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1198.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1199.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1200.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1201.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1202.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1203.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1204.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1205.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1206.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1207.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1208.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1209.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1210.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1211.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1212.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1213.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1214.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1215.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1216.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1217.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1218.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1219.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1220.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1221.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1222.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1223.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1224.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1225.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1226.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1227.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1228.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1229.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1230.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1231.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1232.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1233.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1234.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1235.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1236.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1237.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1238.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1239.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1240.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1241.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1242.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1243.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1244.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1245.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1246.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1247.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1248,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1249.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1250.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1251.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1252.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1253.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1254.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1255.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1256.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1257.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1258.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1259.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1260.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1261.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1262.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1263.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1264.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1265.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1266.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1267.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1268.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1269.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1270.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1271.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1272.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1273.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1274.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1275.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1276.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1277.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1278.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1279.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1280.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1281.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1282.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1283.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1284.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1285.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1286.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1287.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1288.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1289.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1290.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1291,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1292.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1293.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1294.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1295.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1296.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1297.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1298.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1299.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1300.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1301.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1302.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1303.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1304.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1305.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1306.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1307.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1308.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1309.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1310.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1311.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1312.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1313.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1314.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1315.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1316.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1317.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1318.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1319.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1320.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1321.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1322.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1323.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1324.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1325.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1326.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1327.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1328.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1329.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1330.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1331.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1332.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1333.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1334.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1335.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1336.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1337.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1338.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1339.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1340.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1341.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1342.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1343.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1344.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1345.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1346.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1347.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1348.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1349.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1350.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1351.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1352.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1353.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1354.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1355.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1356.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1357.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1358.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1359.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1360.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1361.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1362.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1363.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1364.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1365.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1366.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1367.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1368.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1369.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1370.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1371.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1372.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1373.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1374.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1375.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1376.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1377.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1378.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1379.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1380.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1381.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1382.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1383.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1384.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1385.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1386.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1387.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1388.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1389.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1390.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1391.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1392.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1393.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1394.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1395.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1396.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1397.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1398.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1399.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1400.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1401.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1402.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1403.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1404.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1405.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1406.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1407.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1408.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1409.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1410.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1411.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1412.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1413.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1414.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1415.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1416.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1417.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1418.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1419.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1420.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1421.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1422.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1423.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1424.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1425.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1426.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1427.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1428.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1429.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1430.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1431.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1432.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1433.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1434.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1435.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1436.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1437.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1438.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1439.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1440.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1441.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1442.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1443.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1444.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1445.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1446.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1447.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1448.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1449.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1450.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1451.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 1452.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1453.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1454.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1455.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1456.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1457.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1458.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1459.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1460.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1461.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1462.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1463.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1464.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1465.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1466.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1467.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1468.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1469.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1470.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1471.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1472.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1473.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1474.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1475.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1476.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1477.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1478.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1479.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1480.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1481.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1482.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1483.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1484.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1485.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1486.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1487.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1488.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1489.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1490.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1491.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1492.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1493.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1494.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1495.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1496.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1497.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1498.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1499.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1500.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1501.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1502.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1503.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1504.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1505.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1506.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1507.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1508.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1509.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1510.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1511.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1512.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1513.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1514.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1515.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1516.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1517.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1518.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1519.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1520.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1521.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1522.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1523.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1524.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1525.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1526.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1527.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1528.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1529.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1530.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1531.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1532.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1533.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1534.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1535.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1536.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1537.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1538.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1539.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1540.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1541.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1542.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1543.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1544.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1545.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1546.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1547.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1548.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1549.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1550.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1551.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1552.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1553.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1554.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1555.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1556.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1557.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1558.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1559.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1560.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1561.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1562.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1563.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1564.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1565.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1566.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1567.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1568.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1569.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1570.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1571.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1572.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1573.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1574.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1575.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1576.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1577.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1578.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1579.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1580.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1581.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1582.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1583.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1584.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1585.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1586.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1587.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1588.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1589.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1590.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1591.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1592.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1593.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1594.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1595.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1596.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1597.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1598.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1599.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1600.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1601.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1602.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1603.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1604.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1605.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1606.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1607.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1608.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1609.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1610.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1611.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1612.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1613.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1614.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1615.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1616.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1617.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1618.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1619.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1620.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1621.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1622.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1623.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1624.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1625.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1626.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1627.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1628.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1629.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1630.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1631.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1632.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1633.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1634.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1635.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1636.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1637.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1638.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1639.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1640.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1641.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1642.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1643.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1644.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1645.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1646.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1647.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1648.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1649.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1650.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1651.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1652.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1653.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1654.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1655.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1656.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1657.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1658.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1659.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1660.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1661.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1662.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1663.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1664.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1665.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1666.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1667.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1668.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1669.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1670.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1671.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1672.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1673.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1674.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1675.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1676.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1677.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1678.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1679.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1680.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1681.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1682.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1683.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1684.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1685.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1686.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1687.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1688.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1689.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1690.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1691.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1692.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1693.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1694.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1695.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1696.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1697.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1698.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1699.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1700.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1701,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1702.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1703.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1704.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1705.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1706.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1707.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1708.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1709.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1710.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1711.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1712.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1713.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1714.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1715.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1716.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1717.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1718.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1719.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1720.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1721.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1722.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1723.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1724.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1725.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1726.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1727.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1728.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1729.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1730.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1731.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1732,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1733.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1734.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1735.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1736.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1737.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1738.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1739.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1740.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1741.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1742.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1743.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1744.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1745.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1746.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1747.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1748.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1749.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1750.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1751.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1752.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1753.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1754.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1755.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1756.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1757.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1758.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1759.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1760.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1761.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1762.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1763.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1764.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1765.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1766.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1767.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1768.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1769.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1770.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1771.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1772.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1773.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1774.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1775.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1776.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1777.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1778.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1779.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1780.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1781.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1782.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1783.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1784.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1785.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1786.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1787.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1788.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1789.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1790.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1791.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1792.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1793.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1794.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1795.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1796.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1797.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1798.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1799.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1800.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1801.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1802.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1803.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1804.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1805.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1806.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1807.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1808.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1809.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1810.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1811.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1812.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1813.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1814.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1815.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1816.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1817.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1818.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1819.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1820.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1821.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1822.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1823.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1824.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1825.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1826.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1827.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1828.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1829.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1830.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1831.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1832.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1833.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1834.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1835.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1836.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1837.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1838.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1839.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1840.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1841.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1842.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1843.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1844.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1845.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1846.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1847.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1848.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1849.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1850.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1851.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1852.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1853.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1854.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1855.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1856.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1857.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1858.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1859.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1860.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1861.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1862.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1863.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1864.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1865.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1866.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1867.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1868.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1869.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1870.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1871.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1872.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1873.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1874.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1875.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1876.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1877,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1878.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1879.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1880.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1881.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1882.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1883.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1884.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1885.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1886.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1887.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1888.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1889.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1890.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1891.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1892.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1893.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1894.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1895.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1896.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1897.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1898.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1899.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1900.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1901.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1902.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1903.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1904.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1905.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1906.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1907.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1908.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1909.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1910.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1911.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1912.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1913.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1914.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1915.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1916.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1917.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1918.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1919.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1920.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1921.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1922.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1923.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1924.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1925.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1926.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1927.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1928.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1929.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1930.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1931.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1932.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1933.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1934.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1935.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1936.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1937.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1938.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1939.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1940.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1941.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1942.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1943.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1944.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1945.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1946.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1947.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1948.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1949.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1950.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1951.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1952.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1953.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1954.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1955.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1956.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1957.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1958.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1959.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1960.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1961.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1962.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1963.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1964.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1965.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1966.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1967.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1968.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1969.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1970.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1971.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1972.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1973.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1974.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1975.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1976.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1977.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1978.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1979.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1980.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1981.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1982.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1983.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1984.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1985.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1986.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1987.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1988.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1989.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1990.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1991.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1992.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1993.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1994.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 1995.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1996.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1997.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1998,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1999.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 2000.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 2001.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 2002.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 2003.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1424.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 1551.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 423.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 579.0,
+            "Cluster_ID": 8
+        },
+        {
+            "Course_ID": 1180.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 400.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1019.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 865.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 198.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 906.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1973.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1938.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1500.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1298.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 326.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 744.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1758.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 561.0,
+            "Cluster_ID": 4
+        },
+        {
+            "Course_ID": 867.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1789.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1100.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 177.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 801.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 947.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 298.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 189.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1454.0,
+            "Cluster_ID": 6
+        },
+        {
+            "Course_ID": 469.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 31.0,
+            "Cluster_ID": 3
+        },
+        {
+            "Course_ID": 1497.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 203.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1676.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 107.0,
+            "Cluster_ID": 0
+        },
+        {
+            "Course_ID": 1149.0,
+            "Cluster_ID": 7
+        },
+        {
+            "Course_ID": 226.0,
+            "Cluster_ID": 1
+        },
+        {
+            "Course_ID": 1980.0,
+            "Cluster_ID": 5
+        },
+        {
+            "Course_ID": 1044.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 243.0,
+            "Cluster_ID": 9
+        },
+        {
+            "Course_ID": 1999.0,
+            "Cluster_ID": 2
+        },
+        {
+            "Course_ID": 1908.0,
+            "Cluster_ID": 2
+        }
+    ]
+}

@@ -1,0 +1,8218 @@
+{
+    "metadata": {
+        "entity": "users",
+        "algorithm": "K-Medoids",
+        "features_config": [
+            {
+                "label": "Пройдені (Cos)",
+                "weight": 0.09999999999999999,
+                "locked": true,
+                "use_umap": true,
+                "umap_dim": 10,
+                "metric": "cosine"
+            },
+            {
+                "label": "Бажані (Cos)",
+                "weight": 0.6,
+                "locked": false,
+                "use_umap": true,
+                "umap_dim": 10,
+                "metric": "cosine"
+            },
+            {
+                "label": "Формати (Jaccard)",
+                "weight": 0.10000000000000002,
+                "locked": true,
+                "use_umap": false,
+                "umap_dim": 5,
+                "metric": "jaccard"
+            },
+            {
+                "label": "Числові (Euclid)",
+                "weight": 0.05,
+                "locked": true,
+                "use_umap": false,
+                "umap_dim": 10,
+                "metric": "euclidean"
+            },
+            {
+                "label": "Освіта (Euclid)",
+                "weight": 0.1,
+                "locked": true,
+                "use_umap": false,
+                "umap_dim": 10,
+                "metric": "euclidean"
+            },
+            {
+                "label": "Мета (Таблиця)",
+                "weight": 0.05,
+                "locked": true,
+                "use_umap": false,
+                "umap_dim": 10,
+                "metric": "custom"
+            }
+        ]
+    },
+    "clusters": [
+        {
+            "User_ID": 1,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 2,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 3,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 4,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 5,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 6,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 7,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 8,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 9,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 10,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 11,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 12,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 13,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 14,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 15,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 16,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 17,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 18,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 19,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 20,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 21,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 22,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 23,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 24,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 25,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 26,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 27,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 28,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 29,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 30,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 31,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 32,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 33,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 34,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 35,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 36,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 37,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 38,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 39,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 40,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 41,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 42,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 43,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 44,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 45,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 46,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 47,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 48,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 49,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 50,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 51,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 52,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 53,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 54,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 55,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 56,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 57,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 58,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 59,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 60,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 61,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 62,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 63,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 64,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 65,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 66,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 67,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 68,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 69,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 70,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 71,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 72,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 73,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 74,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 75,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 76,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 77,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 78,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 79,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 80,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 81,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 82,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 83,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 84,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 85,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 86,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 87,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 88,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 89,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 90,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 91,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 92,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 93,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 94,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 95,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 96,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 97,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 98,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 99,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 100,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 101,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 102,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 103,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 104,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 105,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 106,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 107,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 108,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 109,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 110,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 111,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 112,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 113,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 114,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 115,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 116,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 117,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 118,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 119,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 120,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 121,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 122,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 123,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 124,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 125,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 126,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 127,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 128,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 129,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 130,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 131,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 132,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 133,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 134,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 135,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 136,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 137,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 138,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 139,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 140,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 141,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 142,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 143,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 144,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 145,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 146,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 147,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 148,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 149,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 150,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 151,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 152,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 153,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 154,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 155,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 156,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 157,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 158,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 159,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 160,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 161,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 162,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 163,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 164,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 165,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 166,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 167,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 168,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 169,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 170,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 171,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 172,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 173,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 174,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 175,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 176,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 177,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 178,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 179,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 180,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 181,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 182,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 183,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 184,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 185,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 186,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 187,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 188,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 189,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 190,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 191,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 192,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 193,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 194,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 195,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 196,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 197,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 198,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 199,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 200,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 201,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 202,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 203,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 204,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 205,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 206,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 207,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 208,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 209,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 210,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 211,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 212,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 213,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 214,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 215,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 216,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 217,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 218,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 219,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 220,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 221,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 222,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 223,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 224,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 225,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 226,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 227,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 228,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 229,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 230,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 231,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 232,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 233,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 234,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 235,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 236,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 237,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 238,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 239,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 240,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 241,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 242,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 243,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 244,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 245,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 246,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 247,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 248,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 249,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 250,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 251,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 252,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 253,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 254,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 255,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 256,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 257,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 258,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 259,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 260,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 261,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 262,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 263,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 264,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 265,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 266,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 267,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 268,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 269,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 270,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 271,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 272,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 273,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 274,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 275,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 276,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 277,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 278,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 279,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 280,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 281,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 282,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 283,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 284,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 285,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 286,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 287,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 288,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 289,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 290,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 291,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 292,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 293,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 294,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 295,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 296,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 297,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 298,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 299,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 300,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 301,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 302,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 303,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 304,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 305,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 306,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 307,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 308,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 309,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 310,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 311,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 312,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 313,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 314,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 315,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 316,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 317,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 318,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 319,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 320,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 321,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 322,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 323,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 324,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 325,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 326,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 327,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 328,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 329,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 330,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 331,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 332,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 333,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 334,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 335,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 336,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 337,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 338,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 339,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 340,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 341,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 342,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 343,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 344,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 345,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 346,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 347,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 348,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 349,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 350,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 351,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 352,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 353,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 354,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 355,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 356,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 357,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 358,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 359,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 360,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 361,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 362,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 363,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 364,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 365,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 366,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 367,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 368,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 369,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 370,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 371,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 372,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 373,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 374,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 375,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 376,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 377,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 378,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 379,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 380,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 381,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 382,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 383,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 384,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 385,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 386,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 387,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 388,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 389,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 390,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 391,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 392,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 393,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 394,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 395,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 396,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 397,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 398,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 399,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 400,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 401,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 402,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 403,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 404,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 405,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 406,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 407,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 408,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 409,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 410,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 411,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 412,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 413,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 414,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 415,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 416,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 417,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 418,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 419,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 420,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 421,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 422,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 423,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 424,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 425,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 426,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 427,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 428,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 429,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 430,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 431,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 432,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 433,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 434,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 435,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 436,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 437,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 438,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 439,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 440,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 441,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 442,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 443,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 444,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 445,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 446,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 447,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 448,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 449,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 450,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 451,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 452,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 453,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 454,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 455,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 456,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 457,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 458,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 459,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 460,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 461,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 462,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 463,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 464,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 465,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 466,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 467,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 468,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 469,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 470,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 471,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 472,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 473,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 474,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 475,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 476,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 477,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 478,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 479,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 480,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 481,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 482,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 483,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 484,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 485,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 486,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 487,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 488,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 489,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 490,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 491,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 492,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 493,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 494,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 495,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 496,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 497,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 498,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 499,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 500,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 501,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 502,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 503,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 504,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 505,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 506,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 507,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 508,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 509,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 510,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 511,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 512,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 513,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 514,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 515,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 516,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 517,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 518,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 519,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 520,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 521,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 522,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 523,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 524,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 525,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 526,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 527,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 528,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 529,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 530,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 531,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 532,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 533,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 534,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 535,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 536,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 537,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 538,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 539,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 540,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 541,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 542,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 543,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 544,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 545,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 546,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 547,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 548,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 549,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 550,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 551,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 552,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 553,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 554,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 555,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 556,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 557,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 558,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 559,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 560,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 561,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 562,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 563,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 564,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 565,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 566,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 567,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 568,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 569,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 570,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 571,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 572,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 573,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 574,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 575,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 576,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 577,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 578,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 579,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 580,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 581,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 582,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 583,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 584,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 585,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 586,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 587,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 588,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 589,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 590,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 591,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 592,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 593,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 594,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 595,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 596,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 597,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 598,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 599,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 600,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 601,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 602,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 603,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 604,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 605,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 606,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 607,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 608,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 609,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 610,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 611,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 612,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 613,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 614,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 615,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 616,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 617,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 618,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 619,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 620,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 621,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 622,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 623,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 624,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 625,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 626,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 627,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 628,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 629,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 630,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 631,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 632,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 633,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 634,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 635,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 636,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 637,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 638,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 639,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 640,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 641,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 642,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 643,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 644,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 645,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 646,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 647,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 648,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 649,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 650,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 651,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 652,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 653,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 654,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 655,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 656,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 657,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 658,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 659,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 660,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 661,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 662,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 663,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 664,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 665,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 666,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 667,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 668,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 669,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 670,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 671,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 672,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 673,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 674,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 675,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 676,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 677,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 678,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 679,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 680,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 681,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 682,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 683,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 684,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 685,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 686,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 687,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 688,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 689,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 690,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 691,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 692,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 693,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 694,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 695,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 696,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 697,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 698,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 699,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 700,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 701,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 702,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 703,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 704,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 705,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 706,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 707,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 708,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 709,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 710,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 711,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 712,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 713,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 714,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 715,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 716,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 717,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 718,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 719,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 720,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 721,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 722,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 723,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 724,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 725,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 726,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 727,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 728,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 729,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 730,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 731,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 732,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 733,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 734,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 735,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 736,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 737,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 738,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 739,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 740,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 741,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 742,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 743,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 744,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 745,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 746,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 747,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 748,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 749,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 750,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 751,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 752,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 753,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 754,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 755,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 756,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 757,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 758,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 759,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 760,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 761,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 762,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 763,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 764,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 765,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 766,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 767,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 768,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 769,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 770,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 771,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 772,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 773,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 774,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 775,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 776,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 777,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 778,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 779,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 780,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 781,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 782,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 783,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 784,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 785,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 786,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 787,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 788,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 789,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 790,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 791,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 792,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 793,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 794,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 795,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 796,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 797,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 798,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 799,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 800,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 801,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 802,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 803,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 804,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 805,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 806,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 807,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 808,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 809,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 810,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 811,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 812,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 813,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 814,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 815,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 816,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 817,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 818,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 819,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 820,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 821,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 822,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 823,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 824,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 825,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 826,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 827,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 828,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 829,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 830,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 831,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 832,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 833,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 834,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 835,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 836,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 837,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 838,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 839,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 840,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 841,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 842,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 843,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 844,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 845,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 846,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 847,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 848,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 849,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 850,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 851,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 852,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 853,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 854,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 855,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 856,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 857,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 858,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 859,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 860,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 861,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 862,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 863,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 864,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 865,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 866,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 867,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 868,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 869,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 870,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 871,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 872,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 873,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 874,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 875,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 876,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 877,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 878,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 879,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 880,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 881,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 882,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 883,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 884,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 885,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 886,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 887,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 888,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 889,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 890,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 891,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 892,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 893,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 894,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 895,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 896,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 897,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 898,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 899,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 900,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 901,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 902,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 903,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 904,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 905,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 906,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 907,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 908,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 909,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 910,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 911,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 912,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 913,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 914,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 915,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 916,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 917,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 918,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 919,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 920,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 921,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 922,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 923,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 924,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 925,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 926,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 927,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 928,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 929,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 930,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 931,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 932,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 933,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 934,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 935,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 936,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 937,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 938,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 939,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 940,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 941,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 942,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 943,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 944,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 945,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 946,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 947,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 948,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 949,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 950,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 951,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 952,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 953,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 954,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 955,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 956,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 957,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 958,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 959,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 960,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 961,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 962,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 963,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 964,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 965,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 966,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 967,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 968,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 969,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 970,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 971,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 972,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 973,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 974,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 975,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 976,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 977,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 978,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 979,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 980,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 981,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 982,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 983,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 984,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 985,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 986,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 987,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 988,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 989,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 990,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 991,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 992,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 993,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 994,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 995,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 996,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 997,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 998,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 999,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1000,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1001,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1002,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1003,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1004,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1005,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1006,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1007,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1008,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1009,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1010,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1011,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1012,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1013,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1014,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1015,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1016,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1017,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1018,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1019,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1020,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1021,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1022,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1023,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1024,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1025,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1026,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1027,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1028,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1029,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1030,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1031,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1032,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1033,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1034,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1035,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1036,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1037,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1038,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1039,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1040,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1041,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1042,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1043,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1044,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1045,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1046,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1047,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1048,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1049,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1050,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1051,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1052,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1053,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1054,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1055,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1056,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1057,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1058,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1059,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1060,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1061,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1062,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1063,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1064,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1065,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1066,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1067,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1068,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1069,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1070,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1071,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1072,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1073,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1074,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1075,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1076,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1077,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1078,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1079,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1080,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1081,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1082,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1083,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1084,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1085,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1086,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1087,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1088,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1089,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1090,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1091,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1092,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1093,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1094,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1095,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1096,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1097,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1098,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1099,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1100,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1101,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1102,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1103,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1104,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1105,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1106,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1107,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1108,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1109,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1110,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1111,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1112,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1113,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1114,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1115,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1116,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1117,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1118,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1119,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1120,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1121,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1122,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1123,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1124,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1125,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1126,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1127,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1128,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1129,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1130,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1131,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1132,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1133,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1134,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1135,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1136,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1137,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1138,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1139,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1140,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1141,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1142,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1143,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1144,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1145,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1146,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1147,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1148,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1149,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1150,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1151,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1152,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1153,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1154,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1155,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1156,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1157,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1158,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1159,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1160,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1161,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1162,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1163,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1164,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1165,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1166,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1167,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1168,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1169,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1170,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1171,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1172,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1173,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1174,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1175,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1176,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1177,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1178,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1179,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1180,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1181,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1182,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1183,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1184,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1185,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1186,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1187,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1188,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1189,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1190,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1191,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1192,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1193,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1194,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1195,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1196,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1197,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1198,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1199,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1200,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1201,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1202,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1203,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1204,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1205,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1206,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1207,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1208,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1209,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1210,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1211,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1212,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1213,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1214,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1215,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1216,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1217,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1218,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1219,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1220,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1221,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1222,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1223,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1224,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1225,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1226,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1227,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1228,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1229,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1230,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1231,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1232,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1233,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1234,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1235,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1236,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1237,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1238,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1239,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1240,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1241,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1242,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1243,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1244,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1245,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1246,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1247,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1248,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1249,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1250,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1251,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1252,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1253,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1254,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1255,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1256,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1257,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1258,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1259,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1260,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1261,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1262,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1263,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1264,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1265,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1266,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1267,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1268,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1269,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1270,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1271,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1272,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1273,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1274,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1275,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1276,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1277,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1278,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1279,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1280,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1281,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1282,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1283,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1284,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1285,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1286,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1287,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1288,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1289,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1290,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1291,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1292,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1293,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1294,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1295,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1296,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1297,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1298,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1299,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1300,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1301,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1302,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1303,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1304,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1305,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1306,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1307,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1308,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1309,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1310,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1311,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1312,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1313,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1314,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1315,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1316,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1317,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1318,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1319,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1320,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1321,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1322,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1323,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1324,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1325,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1326,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1327,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1328,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1329,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1330,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1331,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1332,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1333,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1334,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1335,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1336,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1337,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1338,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1339,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1340,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1341,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1342,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1343,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1344,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1345,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1346,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1347,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1348,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1349,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1350,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1351,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1352,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1353,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1354,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1355,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1356,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1357,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1358,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1359,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1360,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1361,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1362,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1363,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1364,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1365,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1366,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1367,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1368,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1369,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1370,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1371,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1372,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1373,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1374,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1375,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1376,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1377,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1378,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1379,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1380,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1381,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1382,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1383,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1384,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1385,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1386,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1387,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1388,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1389,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1390,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1391,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1392,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1393,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1394,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1395,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1396,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1397,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1398,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1399,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1400,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1401,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1402,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1403,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1404,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1405,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1406,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1407,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1408,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1409,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1410,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1411,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1412,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1413,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1414,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1415,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1416,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1417,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1418,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1419,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1420,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1421,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1422,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1423,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1424,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1425,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1426,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1427,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1428,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1429,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1430,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1431,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1432,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1433,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1434,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1435,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1436,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1437,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1438,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1439,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1440,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1441,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1442,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1443,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1444,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1445,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1446,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1447,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1448,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1449,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1450,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1451,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1452,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1453,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1454,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1455,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1456,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1457,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1458,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1459,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1460,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1461,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1462,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1463,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1464,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1465,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1466,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1467,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1468,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1469,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1470,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1471,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1472,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1473,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1474,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1475,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1476,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1477,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1478,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1479,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1480,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1481,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1482,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1483,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1484,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1485,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1486,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1487,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1488,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1489,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1490,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1491,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1492,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1493,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1494,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1495,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1496,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1497,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1498,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1499,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1500,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1501,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1502,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1503,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1504,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1505,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1506,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1507,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1508,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1509,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1510,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1511,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1512,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1513,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1514,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1515,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1516,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1517,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1518,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1519,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1520,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1521,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1522,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1523,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1524,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1525,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1526,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1527,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1528,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1529,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1530,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1531,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1532,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1533,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1534,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1535,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1536,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1537,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1538,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1539,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1540,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1541,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1542,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1543,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1544,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1545,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1546,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1547,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1548,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1549,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1550,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1551,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1552,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1553,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1554,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1555,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1556,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1557,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1558,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1559,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1560,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1561,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1562,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1563,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1564,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1565,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1566,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1567,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1568,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1569,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1570,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1571,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1572,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1573,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1574,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1575,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1576,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1577,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1578,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1579,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1580,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1581,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1582,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1583,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1584,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1585,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1586,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1587,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1588,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1589,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1590,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1591,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1592,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1593,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1594,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1595,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1596,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1597,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1598,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1599,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1600,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1601,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1602,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1603,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1604,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1605,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1606,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1607,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1608,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1609,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1610,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1611,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1612,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1613,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1614,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1615,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1616,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1617,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1618,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1619,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1620,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1621,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1622,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1623,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1624,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1625,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1626,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1627,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1628,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1629,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1630,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1631,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1632,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1633,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1634,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1635,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1636,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1637,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1638,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1639,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1640,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1641,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1642,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1643,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1644,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1645,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1646,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1647,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1648,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1649,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1650,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1651,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1652,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1653,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1654,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1655,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1656,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1657,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1658,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1659,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1660,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1661,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1662,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1663,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1664,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1665,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1666,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1667,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1668,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1669,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1670,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1671,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1672,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1673,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1674,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1675,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1676,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1677,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1678,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1679,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1680,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1681,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1682,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1683,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1684,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1685,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1686,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1687,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1688,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1689,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1690,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1691,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1692,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1693,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1694,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1695,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1696,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1697,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1698,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1699,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1700,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1701,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1702,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1703,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1704,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1705,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1706,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1707,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1708,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1709,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1710,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1711,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1712,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1713,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1714,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1715,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1716,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1717,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1718,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1719,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1720,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1721,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1722,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1723,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1724,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1725,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1726,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1727,
+            "Cluster_ID": 9
+        },
+        {
+            "User_ID": 1728,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1729,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1730,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1731,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1732,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1733,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1734,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1735,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1736,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1737,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1738,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1739,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1740,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1741,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1742,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1743,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1744,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1745,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1746,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1747,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1748,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1749,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1750,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1751,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1752,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1753,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1754,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1755,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1756,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1757,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1758,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1759,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1760,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1761,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1762,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1763,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1764,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1765,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1766,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1767,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1768,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1769,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1770,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1771,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1772,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1773,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1774,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1775,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1776,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1777,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1778,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1779,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1780,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1781,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1782,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1783,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1784,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1785,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1786,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1787,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1788,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1789,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1790,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1791,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1792,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1793,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1794,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1795,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1796,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1797,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1798,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1799,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1800,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1801,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1802,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1803,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1804,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1805,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1806,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1807,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1808,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1809,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1810,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1811,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1812,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1813,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1814,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1815,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1816,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1817,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1818,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1819,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1820,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1821,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1822,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1823,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1824,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1825,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1826,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1827,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1828,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1829,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1830,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1831,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1832,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1833,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1834,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1835,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1836,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1837,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1838,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1839,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1840,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1841,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1842,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1843,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1844,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1845,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1846,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1847,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1848,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1849,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1850,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1851,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1852,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1853,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1854,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1855,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1856,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1857,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1858,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1859,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1860,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1861,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1862,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1863,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1864,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1865,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1866,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1867,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1868,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1869,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1870,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1871,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1872,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1873,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1874,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1875,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1876,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1877,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1878,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1879,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1880,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1881,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1882,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1883,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1884,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1885,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1886,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1887,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1888,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1889,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1890,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1891,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1892,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1893,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1894,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1895,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1896,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1897,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1898,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1899,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1900,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1901,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1902,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1903,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1904,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1905,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1906,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1907,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1908,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1909,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1910,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1911,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1912,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1913,
+            "Cluster_ID": 8
+        },
+        {
+            "User_ID": 1914,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1915,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1916,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1917,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1918,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1919,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1920,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1921,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1922,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1923,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1924,
+            "Cluster_ID": 6
+        },
+        {
+            "User_ID": 1925,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1926,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1927,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1928,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1929,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1930,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1931,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 1932,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1933,
+            "Cluster_ID": 7
+        },
+        {
+            "User_ID": 1934,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1935,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1936,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1937,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1938,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1939,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1940,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1941,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1942,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1943,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1944,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1945,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1946,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1947,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1948,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1949,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1950,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1951,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1952,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1953,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1954,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1955,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1956,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1957,
+            "Cluster_ID": 10
+        },
+        {
+            "User_ID": 1958,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1959,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1960,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1961,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1962,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1963,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1964,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 1965,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1966,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1967,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1968,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1969,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1970,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1971,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1972,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1973,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1974,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1975,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1976,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1977,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1978,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1979,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1980,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1981,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1982,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1983,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1984,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1985,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1986,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1987,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1988,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1989,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1990,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1991,
+            "Cluster_ID": 15
+        },
+        {
+            "User_ID": 1992,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1993,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1994,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1995,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1996,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1997,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1998,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 1999,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 2000,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 320,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1159,
+            "Cluster_ID": 18
+        },
+        {
+            "User_ID": 530,
+            "Cluster_ID": 2
+        },
+        {
+            "User_ID": 1312,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 683,
+            "Cluster_ID": 17
+        },
+        {
+            "User_ID": 885,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1362,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 701,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 692,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 541,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1041,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1545,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 722,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 106,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 636,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1354,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 1855,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1161,
+            "Cluster_ID": 0
+        },
+        {
+            "User_ID": 1794,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1585,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 667,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1999,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 1834,
+            "Cluster_ID": 19
+        },
+        {
+            "User_ID": 1931,
+            "Cluster_ID": 1
+        },
+        {
+            "User_ID": 740,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1943,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1763,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1321,
+            "Cluster_ID": 13
+        },
+        {
+            "User_ID": 1927,
+            "Cluster_ID": 12
+        },
+        {
+            "User_ID": 70,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 190,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 572,
+            "Cluster_ID": 11
+        },
+        {
+            "User_ID": 1454,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1237,
+            "Cluster_ID": 5
+        },
+        {
+            "User_ID": 1284,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 78,
+            "Cluster_ID": 3
+        },
+        {
+            "User_ID": 1087,
+            "Cluster_ID": 14
+        },
+        {
+            "User_ID": 1574,
+            "Cluster_ID": 4
+        },
+        {
+            "User_ID": 1166,
+            "Cluster_ID": 16
+        },
+        {
+            "User_ID": 861,
+            "Cluster_ID": 13
+        }
+    ]
+}
